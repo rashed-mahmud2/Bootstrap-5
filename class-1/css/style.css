@@ -1,0 +1,35 @@
+h1 {
+  margin-bottom: 6rem;
+  color: red;
+  font-size: 4rem;
+}
+
+.hr-style {
+  border: 5px white dotted;
+  border-bottom: none;
+  width: 50px;
+}
+
+#feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-item {
+  text-align: center;
+  padding-block: 3rem;
+  padding-inline: 1rem;
+}
+
+.carousel-item .img {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item .carousel-item-text {
+  padding-inline: 4rem;
+}
