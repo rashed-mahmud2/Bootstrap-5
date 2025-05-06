@@ -1,0 +1,150 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  margin-inline: auto;
+}
+
+/* utility class */
+span.dash {
+  display: inline-block;
+  background-color: #aaa;
+  width: 2rem;
+  height: 2px;
+  margin-right: 0.5rem;
+  position: relative;
+  top: -5px;
+}
+
+/* navbar */
+
+/* hero-section */
+.hero-container {
+  background-image: url("img/hero-cover.jpg");
+  height: 460px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.hero-container h1 {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+
+.hero-container h2 {
+  font-size: 1.7rem;
+}
+
+.hero-container .input-field {
+  outline: none;
+}
+
+.search-icon {
+  right: 3rem;
+  top: 0.3rem;
+  transition: 0.2s;
+  background-color: rgb(214, 3, 162);
+}
+
+.search-icon:hover {
+  transform: scale(0.95);
+}
+
+/* hero feature section */
+
+.hero-feature-container {
+  margin-top: -3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+  transition: 0.2s;
+}
+
+.feature-card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.for-your-home-section .row .text-center img,
+.recommened-section .row .text-center img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.for-your-home-section .row .text-center img:hover,
+.recommened-section .row .text-center img:hover {
+  transform: scale(1.05);
+}
+
+/* why choose section */
+
+/* how it works */
+
+.serial-number {
+  background-image: linear-gradient(45deg, rgb(244, 8, 122), skyblue);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.5rem;
+}
+
+.single-line {
+  background-color: #ccc;
+  width: 3px;
+  height: 19.4rem;
+  position: absolute;
+  top: 1.2rem;
+}
+
+.line-double {
+  background-color: whitesmoke;
+  width: 0.6rem;
+  height: 15rem;
+  position: absolute;
+  left: 0;
+}
+
+.download-input-custom {
+  outline: none;
+}
+
+.btn-success-custom {
+  left: 26.3rem;
+}
+
+.service-request-img {
+  bottom: -3rem;
+}
+
+.footer-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #888;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgba(6, 6, 45, 0.658);
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+  .hero-feature-container {
+    margin-top: 0;
+  }
+
+  .for-your-home-section .row .text-center img,
+  .recommened-section .row .text-center img {
+    width: 95%;
+  }
+
+  .btn-success-custom {
+    left: 14rem;
+  }
+
+  .service-request-img {
+    position: static !important;
+    margin-top: 5rem;
+  }
+
+  .testimonial-section .carousel-control-prev {
+    margin-left: 0 !important;
+  }
+  .testimonial-section .carousel-control-next {
+    margin-right: 0 !important;
+  }
+}
